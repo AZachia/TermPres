@@ -14,3 +14,7 @@ slide.add_image("mario.png", h=30, w=50, align="left", x=5)
 pres.add_slide(slide)
 
 pres.show()
+
+pres2 = TermPresentation()
+pres2.load("intro.tp")
+pres2.show()
